@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Banner from './components/Banner'
 import Head from 'next/head'
 import WhatsApp from './components/WhatsApp'
+import Carousel from './components/Carousel'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Header></Header>
       <Banner></Banner>
       <WhatsApp></WhatsApp>
+      <Carousel></Carousel>
     </main>
   )
 }

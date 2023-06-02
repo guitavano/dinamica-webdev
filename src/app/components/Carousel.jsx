@@ -79,7 +79,7 @@ const Carousel = () => {
       </div>
 
       <div className="w-full flex flex-col gap-5 items-center justify-center">
-        <button className=" m-auto text-white font-bold bg-[#63038C] py-[14px] rounded-full">
+        <button className=" m-auto text-white font-bold bg-[#63038C] py-[14px] rounded-full px-4">
           Quero ver mais
         </button>
       </div>
