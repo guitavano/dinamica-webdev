@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Cards from './components/cards.jsx'
 import Header from './components/Header'
 import Banner from './components/Banner'
 import Head from 'next/head'
@@ -19,6 +20,7 @@ export default function Home() {
       <Banner></Banner>
       <WhatsApp></WhatsApp>
       <Carousel></Carousel>
+    <Cards/>
     </main>
   )
 }
